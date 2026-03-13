@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Cinematic Trailer for Fantasy SMP Launch",
+    "summary": "Produced a 90-second trailer with scripted sequence design, camera choreography, and final color grading.",
+    "result": "Improved launch week signups by 32% compared to previous campaign."
+  },
+  {
+    "title": "Performance Optimization for Survival Server",
+    "summary": "Rebuilt startup configuration, plugin stack, and world management settings for lower latency.",
+    "result": "Reduced average tick lag by 40% during peak player hours."
+  },
+  {
+    "title": "Custom Economy and Quest Plugin",
+    "summary": "Developed an extensible plugin module for quests, rewards, and progression balancing.",
+    "result": "Increased average daily active player retention by 21%."
+  },
+  {
+    "title": "Weekly Creator Content Editing Pipeline",
+    "summary": "Designed repeatable editing workflow with reusable presets, pacing templates, and caption packs.",
+    "result": "Cut post-production turnaround from 3 days to 1 day."
+  }
+]

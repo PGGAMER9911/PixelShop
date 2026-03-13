@@ -1,0 +1,14 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Your Name Freelancing",
+  "url": "https://yourdomain.com/",
+  "description": "Minecraft cinematic videos, server setup, plugin development, and video editing.",
+  "serviceType": [
+    "Minecraft Cinematic Video Creation",
+    "Minecraft Server Setup",
+    "Minecraft Plugin Development",
+    "Video Editing"
+  ],
+  "areaServed": "Worldwide"
+}

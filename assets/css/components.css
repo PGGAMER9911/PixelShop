@@ -1,0 +1,146 @@
+.top-accent {
+  height: 8px;
+  background: linear-gradient(90deg, #d95f02, #eb984e, #0f766e);
+}
+
+.navbar {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.9rem 0;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  text-decoration: none;
+  color: var(--text);
+  font-weight: 700;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.9rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  padding: 0.45rem 0.65rem;
+  border-radius: 8px;
+}
+
+.nav-links a[aria-current="page"],
+.nav-links a:hover {
+  background: rgba(217, 95, 2, 0.14);
+}
+
+.menu-toggle {
+  display: none;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.7rem 1.1rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  border: 1px solid transparent;
+}
+
+.btn-primary {
+  background: var(--brand);
+  color: #fff;
+}
+
+.btn-secondary {
+  border-color: var(--brand);
+  color: var(--brand-dark);
+  background: #fff;
+}
+
+.service-card,
+.portfolio-card {
+  background: var(--surface);
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+  padding: 1rem;
+  box-shadow: var(--shadow);
+  animation: fade-in-up 500ms ease both;
+}
+
+.site-footer {
+  background: #12202f;
+  color: #d6e3eb;
+  padding-top: 2rem;
+  margin-top: 2rem;
+}
+
+.site-footer a {
+  color: #f9d8bf;
+}
+
+.copyright {
+  text-align: center;
+  margin: 0;
+  padding: 1rem;
+  border-top: 1px solid rgba(214, 227, 235, 0.22);
+}
+
+.contact-form {
+  display: grid;
+  gap: 0.7rem;
+  max-width: 640px;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 0.7rem;
+  font: inherit;
+}
+
+@media (max-width: 720px) {
+  .menu-toggle {
+    display: inline-flex;
+    border: 1px solid var(--line);
+    background: #fff;
+    border-radius: 8px;
+    padding: 0.5rem 0.7rem;
+  }
+
+  .nav-links {
+    position: absolute;
+    right: 1rem;
+    top: 74px;
+    flex-direction: column;
+    background: #fff;
+    padding: 0.75rem;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    display: none;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
