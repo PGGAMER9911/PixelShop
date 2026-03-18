@@ -1,8 +1,0 @@
-article h1,
-article h2 {
-  max-width: 24ch;
-}
-
-article p {
-  color: var(--muted);
-}
